@@ -1,0 +1,40 @@
+### PyPI
+
+*.egg-info
+/build/
+/dist/
+
+### Python
+
+.env
+*.pyc
+__pycache__/
+
+### PyTest
+
+.pytest_cache
+.coverage
+/htmlcov/
+
+### IDE
+
+.project
+.pydevproject
+.sass-cache/
+.settings/
+.vscode
+
+### Django
+
+*.mo
+*.pot
+*.log
+
+db.sqlite3
+
+/cache/*
+/components/*
+/exchange/*
+/media/*
+/static/*
+/temp/*
