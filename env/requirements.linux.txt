@@ -4,6 +4,7 @@
 
 # Packages from PIP
 
+mysqlclient==1.4.2
 uwsgi~=2.0.0
 
 # Packages from GIT
