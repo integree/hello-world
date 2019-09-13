@@ -1,0 +1,61 @@
+# Before you start verify that packages bellow are installed:
+  - Python 2.7
+  - Microsoft Visual C++ Compiler for Python 2.7
+  - MySQL Connector C 6.0.2
+  - virtualenv
+  - virtualenvwrapper-win
+
+# Verify WORKON_HOME points to virtual env home directory
+
+echo WORKON_HOME=%WORKON_HOME%
+
+# Make virtual env
+
+virtualenv -p "c:\Python36\python.exe" "%WORKON_HOME%\tpass1"
+workon tpass1
+
+# Verify Python version is 3.6.x
+
+python -V
+
+# Install pip
+
+python -m pip install --upgrade pip
+
+# Verify pip version is >= 9
+
+pip -V
+
+# Go to project dir
+
+cd d:\serwer\www\tpass1
+setprojectdir .
+
+# Install requirements
+
+pip install -r env\requirements.txt
+pip install -r env\requirements.win.txt
+
+# Install congo
+
+# for local installation
+cd D:\Serwer\www\congo3
+python setup.py develop
+
+# for installation from PyPI
+pip install django-congo3
+
+# for installation from SVN
+pip install -e git+https://gitlab.com/integree/internal/congo3.git
+
+# Install saigon
+
+# for local installation
+cd D:\Serwer\www\saigon2
+python setup.py develop
+
+# for installation from PyPI
+pip install saigon2
+
+# for installation from SVN
+pip install -e git+https://gitlab.com/integree/internal/saigon2.git

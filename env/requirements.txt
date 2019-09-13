@@ -1,0 +1,11 @@
+# Packages from WHL's
+
+# ...
+
+# Packages from PIP
+
+django~=2.2.0
+django-admin-tools~=0.8.0
+django-autocomplete-light~=3.3.0
+django-redis~=4.8.0
+djangorestframework~=3.9.0

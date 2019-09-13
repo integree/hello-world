@@ -1,0 +1,12 @@
+# Packages from WHL's
+
+# ...
+
+# Packages from PIP
+
+uwsgi~=2.0.0
+
+# Packages from GIT
+
+#git+https://gitlab.com/integree/internal/congo3.git
+#git+https://gitlab.com/integree/internal/saigon2.git

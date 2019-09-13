@@ -1,0 +1,8 @@
+# Packages from WHL's
+
+env/wheels/mysqlclient-1.4.2-cp36-cp36m-win32.whl
+env/wheels/cairocffi-1.0.2-cp36-cp36m-win32.whl
+
+# Packages from PIP
+
+# ...
